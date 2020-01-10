@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="cnWebClubTrax-dev-Web.config Connection String" description="cnWebClubTrax-dev Connection String used in web.config by the application to access the database." defaultValue="Data Source=RMOT-TDIGGES-M\SQLEXPRESS2012;Initial Catalog=WebClubTrax;Persist Security Info=True;User ID=KymaWeb;Password=clubtrax" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\tdigges\\Desktop\\My\ Dropbox\\Dropbox\\MySandBox\\SVCLV\\1\.\)\ SVCLV\ -\.Net\ 4\.7\.2\\SVCLV-10082019\\SVCLV\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cnWebClubTrax-dev']/@connectionString" />
+  </parameter>
+  <parameter name="cnWebClubTrax-Web.config Connection String" description="cnWebClubTrax Connection String used in web.config by the application to access the database." defaultValue="Data Source=webfuse.cffb1f584hlu.us-east-2.rds.amazonaws.com;Initial Catalog=clubtrax;User ID=webfuse2019;Password=Sl1pstr34m!;Integrated Security=False;Pooling=True;Max Pool Size=1000;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\tdigges\\Desktop\\My\ Dropbox\\Dropbox\\MySandBox\\SVCLV\\1\.\)\ SVCLV\ -\.Net\ 4\.7\.2\\SVCLV-10082019\\SVCLV\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cnWebClubTrax']/@connectionString" />
+  </parameter>
+  <parameter name="cnWebClubTrax-test-Web.config Connection String" description="cnWebClubTrax-test Connection String used in web.config by the application to access the database." defaultValue="Data Source=webfuse.cffb1f584hlu.us-east-2.rds.amazonaws.com;Initial Catalog=clubtrax;User ID=webfuse2019;Password=Sl1pstr34m!;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\tdigges\\Desktop\\My\ Dropbox\\Dropbox\\MySandBox\\SVCLV\\1\.\)\ SVCLV\ -\.Net\ 4\.7\.2\\SVCLV-10082019\\SVCLV\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cnWebClubTrax-test']/@connectionString" />
+  </parameter>
+</parameters>

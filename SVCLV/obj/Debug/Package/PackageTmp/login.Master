@@ -1,0 +1,32 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="login.Master.vb" Inherits="SVCLV.loginMaster" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title>ClubTrax - Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+    <!---CSS Files-->
+   
+    <link href="~/Content/login.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <!---jQuery Files-->
+    <script src="~/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="~/js/jquery.spinner.js" type="text/javascript"></script>
+    <script type="text/javascript" src="~/js/forms/jquery.validate.min.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+	<div class="wrapper">
+		
+        
+
+         <form id="Form1" runat="server">
+            <asp:Label ID="lblLoginHeader" runat="server"></asp:Label>
+            <asp:Menu ID="NavigationMenu" runat="server" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+            </asp:Menu>
+		  <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+          </form>
+     </div>
+</body>
+</html>

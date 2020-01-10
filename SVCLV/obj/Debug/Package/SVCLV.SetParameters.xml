@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/" />
+  <setParameter name="cnWebClubTrax-dev-Web.config Connection String" value="Data Source=RMOT-TDIGGES-M\SQLEXPRESS2012;Initial Catalog=WebClubTrax;Persist Security Info=True;User ID=KymaWeb;Password=clubtrax" />
+  <setParameter name="cnWebClubTrax-Web.config Connection String" value="Data Source=webfuse.cffb1f584hlu.us-east-2.rds.amazonaws.com;Initial Catalog=clubtrax;User ID=webfuse2019;Password=Sl1pstr34m!;Integrated Security=False;Pooling=True;Max Pool Size=1000;Connection Timeout=30;" />
+  <setParameter name="cnWebClubTrax-test-Web.config Connection String" value="Data Source=webfuse.cffb1f584hlu.us-east-2.rds.amazonaws.com;Initial Catalog=clubtrax;User ID=webfuse2019;Password=Sl1pstr34m!;" />
+</parameters>

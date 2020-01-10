@@ -1,0 +1,327 @@
+/******PRIMARY*******/
+
+body {
+    background: #edf1f5;
+    font-family: "Rubik",sans-serif !important;
+    color: #666;
+    font-size: 14px;
+}
+
+.wrapper {
+    width: 350px;
+    position: relative;
+    padding-top: 6% !important;
+    margin: 0 auto !important;
+}
+
+h1 {
+    font-family: "Rubik",sans-serif !important;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 28px;
+    float: right;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+}
+
+.inner {
+    width: 100%;
+    margin: 0 auto !important;
+}
+
+.logo {
+    width: 240px !important;
+    margin: 0 auto !important;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lg-body {
+    width: 240px;
+    background: #0f0d0d;
+    border-radius: 0px;
+    overflow: hidden;
+    padding: 28px 55px 28px 55px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+}
+
+#lg-head {
+    width: 260px;
+    margin: 0 auto;
+}
+
+    #lg-head p {
+        font-size: 28px;
+        font-weight: 700;
+        color: #333;
+        text-align: center;
+    }
+
+.separator {
+    border: 1px solid #333;
+    margin: 14px 0;
+}
+
+.login {
+    width: 100%;
+    margin: auto;
+}
+
+    .login ul li {
+        margin-top: 14px;
+    }
+
+#usr-field, #psw-field {
+    border-radius: 2px;
+    height: 40px;
+    position: relative;
+    list-style-type: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#usr-field-icon {
+    display: block;
+    width: 22px;
+    height: 18px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+#psw-field-icon {
+    display: block;
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+.textbox {
+    outline: none !important;
+    width: 100%;
+    height: 45px;
+    background: #0f0d0d;
+    border-bottom: 2px solid #d9b744;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    margin-bottom: 20px;
+}
+
+    .textbox:focus {
+        outline: none !important;
+        border-bottom: 2px solid #d9b744;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        -webkit-border-image: #d9b744;
+        -webkit-transition: all 0.10s;
+        -o-transition: all 0.10s;
+        -moz-transition: all 0.10s;
+        transition: all 0.10s;
+    }
+
+
+
+.labels {
+    color: #666;
+}
+
+.login_sub p {
+    color: #666;
+    font-size: 10px;
+    text-align: center !important;
+}
+
+.login_sub a {
+    color: #333;
+    text-decoration: none;
+}
+
+#MainContent_lblFooter a{ color: #777;}
+
+.input {
+    width: 100%;
+    height: 32px;
+    background: #fff;
+    border: solid 1px #ccc;
+    box-shadow: none;
+    padding: 0;
+    text-indent: 40px;
+    position: relative;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400 !important;
+}
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    /* Hide the browser's default checkbox */
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+/* Create a custom checkbox */
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #696969;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+	background-color: #696969;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #d9b744;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+#checkbox {
+    margin: 16px 0 16px 4px;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.checkmark-text {
+    color: #777;
+    margin-left: 36px;
+    font-size: 15px;
+    float: none;
+}
+
+.submitButton {
+    width: 100%;
+    float: none;
+    background: #d9b744;
+    border-radius: 40px;
+    color: #0f0d0d;
+    cursor: pointer;
+    font-family: "Roboto",sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    height: 50px;
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border: none;
+    letter-spacing: 2px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+    .submitButton:hover {
+        background: #e5c760;
+       
+    }
+
+.submitButton_right:hover {
+    background: #0052AA;
+}
+
+.submitButton_right {
+    float: right;
+    background: transparent linear-gradient(to bottom, #0052AA 0%, #011E53 100%) repeat scroll 0% 0%;
+    border-radius: 2px;
+    box-shadow: inset 0px 1px 0px #54a3f7;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Open Sans",sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    height: 30px;
+    max-height: 40px !important;
+    padding: 6px 14px 5px;
+    text-shadow: 0 1px 0 #000;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-right: 50px;
+}
+
+#lost-psw {
+    float: right;
+    margin-top: -24px;
+}
+
+    #lost-psw a {
+        color: #fff;
+        font-size: 13px;
+    }
+
+label.error {
+    width: 22px;
+    height: 22px;
+    display: block;
+    clear: both;
+    text-indent: -9999px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: url(../images/login-sprite.png) no-repeat 0 -68px;
+    border: none;
+    float: none;
+}

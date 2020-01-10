@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\tdigges\Desktop\My Dropbox\Dropbox\MySandBox\SVCLV\1.) SVCLV -.Net 4.7.2\SVCLV-10082019\SVCLV\obj\Debug\Package\PackageTmp" />
+  <setAcl path="C:\Users\tdigges\Desktop\My Dropbox\Dropbox\MySandBox\SVCLV\1.) SVCLV -.Net 4.7.2\SVCLV-10082019\SVCLV\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\tdigges\Desktop\My Dropbox\Dropbox\MySandBox\SVCLV\1.) SVCLV -.Net 4.7.2\SVCLV-10082019\SVCLV\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>
